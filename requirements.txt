@@ -1,0 +1,38 @@
+# ============================================================
+# DongYuan - Core Dependencies
+# ============================================================
+# Install: pip install -r requirements.txt
+#
+# Note: Some components may require additional dependencies:
+#   - SSDF-Navigator training: torch, transformers
+#   - SSDF-Core training: swift, deepspeed, flash-attn
+#   - SSDF-Bench: openai, matplotlib
+# ============================================================
+
+# --- Deep Learning ---
+torch>=2.0.0
+transformers>=4.40.0
+
+# --- SSDF-Navigator ---
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.60.0
+
+# --- SSDF-Core Training (optional) ---
+# swift>=2.0       # MS-Swift training framework
+# deepspeed>=0.14  # Distributed training
+# flash-attn>=2.6  # Flash attention (GPU only)
+
+# --- SSDF-Bench ---
+openai>=1.0.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+matplotlib>=3.7.0
+json-repair>=0.25.0
+
+# --- HTTP ---
+httpx>=0.25.0
+requests>=2.31.0
+
+# --- vLLM Deployment (optional) ---
+# vllm>=0.5.0

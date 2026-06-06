@@ -1,0 +1,10 @@
+{
+  "data_path": "./data/evaluation_data/sdt_data.jsonl",
+  "local_model_gpu_id": -1,
+  "llm_judge_api_host": "127.0.0.1",
+  "llm_judge_api_port": 8002,
+  "llm_judge_model_name": "Qwen3-32B",
+  "llm_judge_api_key": "",
+  "max_retries": 3,
+  "checkpoint_interval": 1
+}

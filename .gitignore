@@ -1,0 +1,66 @@
+# ============================================================
+# DongYuan - .gitignore
+# ============================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.so
+
+# --- Environment ---
+.env
+venv/
+.venv/
+env/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Data / Output ---
+# Raw patient data should NOT be committed
+*.xlsx
+*.xls
+*.pkl
+*.pth
+*.pt
+checkpoint-*/
+
+# Training outputs
+outputs/
+runs/
+
+# --- Temporary files ---
+tmp/
+*.log
+*.out
+
+# --- Results (keep only sample or gitkeep) ---
+ssdf_bench/results/*/
+# Uncomment below to exclude all results:
+# ssdf_bench/results/
+
+# --- Notebook outputs ---
+.ipynb_checkpoints/
+
+# --- Large model files ---
+*.bin
+*.safetensors
+
+# --- Third-party training data (excluded from repo) ---
+# These are general public datasets. Download instructions provided in data_foundation/.
+data_foundation/train_data/sft_data/other_data/
+data_foundation/train_data/sft_data/ssdf_dialogue/build_multi_round_dialogue.py
+
+# --- Paper PDF ---
+# docs/Dongyuan.pdf
