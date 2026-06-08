@@ -367,6 +367,16 @@ results/your-model-run/
 
 ---
 
+## 📥 数据下载
+
+DongYuan 自建的核心数据集（SSDF-Syndrome、SSDF-Dialogue、SSDF-PD）已直接包含在仓库的 `data_foundation/` 目录下。补充训练数据（通用指令、医学知识、伦理、安全等）因体积较大未包含在仓库中，请通过以下链接单独下载：
+
+- **补充训练数据**（`data_foundation/train_data/sft_data/other_data/`）：[https://pan.quark.cn/s/9633dc0ed2da](https://pan.quark.cn/s/9633dc0ed2da)
+
+下载后将文件解压到 `data_foundation/train_data/sft_data/other_data/` 目录即可复现完整训练环境。
+
+---
+
 ## 📄 许可证
 
 本项目基于 Apache License 2.0 许可证 — 详见 [LICENSE](LICENSE) 文件。

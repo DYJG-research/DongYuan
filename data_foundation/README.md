@@ -25,10 +25,11 @@ This directory contains the expert-knowledge-annotated datasets used by DongYuan
 The `train_data/` directory contains SFT and DPO training data in `messages` format. Key subsets:
 
 - **`sft_data/ssdf_dialogue/`**: SSDF-Dialogue — multi-round consultation data with CoT reasoning
-- **`sft_data/other_data/`**: Supplementary training data (medical knowledge, ethics, safety, general instruction)
+- **`sft_data/other_data/`**: Supplementary training data (medical knowledge, ethics, safety, general instruction).  
+  > ⬇️ **Download**: [https://pan.quark.cn/s/9633dc0ed2da](https://pan.quark.cn/s/9633dc0ed2da)
 - **`dpo_data/`**: Preference pairs for DPO training
 
-> **Note on data availability**: If you need access to larger or raw versions of these datasets, please contact the authors or refer to the paper for data access instructions.
+> **Note on data availability**: The `sft_data/other_data/` directory is excluded from this repository due to its size. Please download it from the link above. If you need access to larger or raw versions of other datasets, please contact the authors or refer to the paper for data access instructions.
 
 ## Data Schema
 

@@ -367,6 +367,16 @@ results/your-model-run/
 
 ---
 
+## 📥 Data Availability
+
+The DongYuan-specific core datasets (SSDF-Syndrome, SSDF-Dialogue, SSDF-PD) are included directly in this repository under `data_foundation/`. The supplementary training data (general instruction, medical knowledge, ethics, safety, etc.) in `data_foundation/train_data/sft_data/other_data/` is excluded from the repo due to its size and can be downloaded separately:
+
+- **Supplementary Training Data**: [https://pan.quark.cn/s/9633dc0ed2da](https://pan.quark.cn/s/9633dc0ed2da)
+
+After downloading, extract the contents into `data_foundation/train_data/sft_data/other_data/` to reproduce the full training setup.
+
+---
+
 ## 📄 License
 
 This project is licensed under the Apache License 2.0 — see the [LICENSE](LICENSE) file for details.
