@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(xargs -0 -I{} sh -c 'wc -c \"$1\" 2>/dev/null' _ {})",
-      "Bash(sort -t. -k1 -rn)"
-    ]
-  }
-}
